@@ -1,0 +1,29 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+out/
+build/
+
+# caches (workspace-local, not for VCS)
+.electron-cache/
+.npm-cache/
+
+# test / diagnostic artifacts
+.e2e-*/
+.smoke-*/
+.dbg-*/
+.start-test-*
+.diag-*
+.icon-test.png
+
+# logs
+*.log
+gateway.log
+
+# editor / OS
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
