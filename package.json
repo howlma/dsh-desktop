@@ -1,0 +1,17 @@
+{
+  "name": "dsh-desktop",
+  "productName": "DeepSeek Harness Desktop",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness desktop client: boots (or reuses) the Harness gateway on launch and embeds the official web UI",
+  "main": "main.js",
+  "author": "harness-desktop contributors",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "smoke": "node test/gateway-smoke.mjs",
+    "build:portable": "build-portable.cmd"
+  },
+  "devDependencies": {
+    "electron": "^43.4.0"
+  }
+}
